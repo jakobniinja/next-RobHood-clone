@@ -17,6 +17,7 @@ const Header = () => {
         <AiOutlineSearch className={searchIcon} />
         <div className="searchInputWrapper">
             <input  placeholder="Search.." className={styles.searchInput} />
+            {/* hejc */}
         </div>
         
         </div>
