@@ -3,6 +3,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 import Header from "../components/Header";
 import BuyTokens  from "../components/BuyTokens";
 import Notice from "../components/Notice";
+import Assets from "../components/Assets";
 const styles = {
   wrapper: "w-screen h-screen flex flex-col",
     mainContainer: "w-2/3 h-full m-auto flex mt-16",
@@ -80,10 +81,10 @@ export default function Home() {
                           className={styles.moreOptions}
                       />
                   </div>
-                  {/* <Asset key='1' coin='BTC' price='40,000' />
-                  <Asset key='2' coin='DOGE' price='15' />
-                  <Asset key='3' coin='SOL' price='103' />
-                  <Asset key='4' coin='USDC' price='1' /> */}
+                   <Assets key='1' coin='BTC' price={0.89} />
+                  <Assets key='2' coin='DOGE' price={15} />
+                  <Assets key='3' coin='SOL' price={103} />
+                  <Assets key='4' coin='USDC' price={1} />
 
                   <div className={styles.rightMainItem}>
                       <div className={styles.ItemTitle}>Lists</div>
