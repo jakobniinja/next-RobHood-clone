@@ -1,11 +1,11 @@
 {
   "root": true,
-  "api": {
-    "projectId": "e0kw3olm",
-    "dataset": "production"
-  },
   "project": {
-    "name": "robin"
+    "name": "robinhood-clone"
+  },
+  "api": {
+    "projectId": "keeh7s29",
+    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
